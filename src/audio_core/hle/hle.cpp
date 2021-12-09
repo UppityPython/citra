@@ -29,7 +29,7 @@ using Service::DSP::DSP_DSP;
 
 namespace AudioCore {
 
-static constexpr u64 audio_frame_ticks = 160 * 4096 * 2ull; ///< Units: ARM11 cycles
+static constexpr u64 audio_frame_ticks = 2 * 160 * 4096 * 2ull; ///< Units: ARM11 cycles
 
 struct DspHle::Impl final {
 public:
